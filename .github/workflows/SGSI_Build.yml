@@ -4,21 +4,21 @@ on:
   workflow_dispatch:
     inputs:
       ROM_URL:
-        description: 'ROM_URL'
+        description: 'https://www.coolapk.com/link?url=https%3A%2F%2Fdownload.meizu.com%2FFirmware%2FFlyme%2Fmeizu17_Pro%2F9.21.5.31%2Fcn_daily%2F20210531190535%2Fd11e965d%2Fupdate.zip'
         required: true
-        default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'https://www.coolapk.com/link?url=https%3A%2F%2Fdownload.meizu.com%2FFirmware%2FFlyme%2Fmeizu17_Pro%2F9.21.5.31%2Fcn_daily%2F20210531190535%2Fd11e965d%2Fupdate.zip'
       ZIP_NAME:
-        description: 'ZIP_NAME'
+        description: 'apollo_flyme9'
         required: true
-        default: 'miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'flyme9_apollo.zip'
       OS_TYPE:
-        description: 'OS_TYPE'
+        description: 'ab'
         required: true
-        default: 'miui'
+        default: 'flyme'
       REPACK_NAME:
-        description: 'REPACK_NAME'
+        description: 'apollo_flyme9'
         required: true
-        default: 'SGSI.zip'
+        default: 'flyme9.zip'
 
 
 
