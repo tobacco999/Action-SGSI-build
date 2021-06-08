@@ -1,7 +1,7 @@
 name: SGSI_Build
 
 on:
-  workflow_dispatch:URL
+  workflow_dispatch:
     inputs:
       ROM_URL:
         description: 'ROM_URL'
