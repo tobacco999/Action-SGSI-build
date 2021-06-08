@@ -1,10 +1,10 @@
 name: SGSI_Build
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:URL
     inputs:
       ROM_URL:
-        description: 'https://www.coolapk.com/link?url=https%3A%2F%2Fdownload.meizu.com%2FFirmware%2FFlyme%2Fmeizu17_Pro%2F9.21.5.31%2Fcn_daily%2F20210531190535%2Fd11e965d%2Fupdate.zip'
+        description: 'ROM_URL'
         required: true
         default: 'https://www.coolapk.com/link?url=https%3A%2F%2Fdownload.meizu.com%2FFirmware%2FFlyme%2Fmeizu17_Pro%2F9.21.5.31%2Fcn_daily%2F20210531190535%2Fd11e965d%2Fupdate.zip'
       ZIP_NAME:
