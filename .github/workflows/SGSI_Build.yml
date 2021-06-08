@@ -8,11 +8,11 @@ on:
         required: true
         default: 'https://www.coolapk.com/link?url=https%3A%2F%2Fdownload.meizu.com%2FFirmware%2FFlyme%2Fmeizu17_Pro%2F9.21.5.31%2Fcn_daily%2F20210531190535%2Fd11e965d%2Fupdate.zip'
       ZIP_NAME:
-        description: 'apollo_flyme9'
+        description: 'ZIP_NAME'
         required: true
         default: 'flyme9_apollo.zip'
       OS_TYPE:
-        description: 'ab'
+        description: 'OS_TYPE'
         required: true
         default: 'flyme'
       REPACK_NAME:
