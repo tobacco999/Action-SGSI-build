@@ -16,7 +16,7 @@ on:
         required: true
         default: 'flyme'
       REPACK_NAME:
-        description: 'apollo_flyme9'
+        description: 'REPACK_NAME'
         required: true
         default: 'flyme9.zip'
 
